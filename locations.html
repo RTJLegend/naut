@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locations — Nautilus Swimming Club</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+<!-- SVG Filter (include once in your document) -->
+<svg width="0" height="0" style="position: absolute;">
+  <defs>
+    <filter id="glass-distortion" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence 
+        type="fractalNoise" 
+        baseFrequency="0.008 0.008"
+        numOctaves="2" 
+        seed="92" 
+        result="noise" 
+      />
+      <feGaussianBlur 
+        in="noise" 
+        stdDeviation="2" 
+        result="blurred" 
+      />
+      <feDisplacementMap 
+        in="SourceGraphic" 
+        in2="blurred" 
+        scale="150"
+        xChannelSelector="R" 
+        yChannelSelector="G" 
+      />
+    </filter>
+  </defs>
+</svg>
+
+<nav class="nav">
+    <div class="wrap nav-inner">
+        <div class="nav-top">
+            <a href="index.html" class="nav-logo"><img src="assets/img/logo-nautilus.png" alt="Nautilus"></a>
+            <ul class="nav-menu-inline">
+                <li><a href="index.html" class="nav-home">Home</a></li>
+                <li><a href="programs.html" class="nav-programs">Programs</a></li>
+                <li><a href="about.html" class="nav-about">About</a></li>
+                <li><a href="coaches.html" class="nav-coaches">Coaches</a></li>
+                <li><a href="locations.html" class="nav-locations on">Locations</a></li>
+                <li><a href="portal.html" target="_blank" class="nav-portal">Member Portal</a></li>
+                <div class="nav-indicator"></div>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-home">Home</a></li>
+            <li><a href="programs.html" class="nav-programs">Programs</a></li>
+            <li><a href="about.html" class="nav-about">About</a></li>
+            <li><a href="coaches.html" class="nav-coaches">Coaches</a></li>
+            <li><a href="locations.html" class="nav-locations on">Locations</a></li>
+            <li><a href="portal.html" target="_blank" class="nav-portal">Member Portal</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<section class="section section-gradient page-header">
+    <div class="wrap">
+        <h1 class="reveal" style="max-width: 550px; margin-bottom: 1rem;"><span class="grad-text">Locations</span></h1>
+        <p class="reveal reveal-delay-1" style="max-width: 480px; font-size: 1.15rem;">Two pools, one standard. Find us in Muscat or Sohar.</p>
+    </div>
+</section>
+
+<section style="padding-bottom: 4rem;">
+    <div class="wrap">
+        <div class="loc-grid">
+
+            <div class="loc tilt-card reveal">
+                <h3>Muscat</h3>
+                <span class="sub">Knowledge Gate International School, Al Hail South</span>
+
+                <div class="detail">
+                    <strong>Hours</strong>
+                    <span>Mon–Thu: 3:00 PM – 9:00 PM<br>Sat: 7:30 AM – 11:30 AM</span>
+                </div>
+
+                <div class="detail">
+                    <strong>Phone</strong>
+                    <span><a href="tel:+96891791791" style="color: var(--water);">+968 91791791</a></span>
+                </div>
+
+                <div class="map-wrap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.7508496873106!2d58.21623868169872!3d23.63868666301325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8dfcecb21e29bb%3A0xf6cbfadf4822fb9!2sNautilus%20Swimming%20Club%2C%20Muscat!5e1!3m2!1sen!2som!4v1778660995564!5m2!1sen!2som" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="loc tilt-card reveal reveal-delay-1">
+                <h3>Sohar</h3>
+                <span class="sub">Al Batinah International School</span>
+
+                <div class="detail">
+                    <strong>Hours</strong>
+                    <span>Mon–Thu: 4:30 PM – 9:00 PM<br>Sun: 4:30 PM – 9:00 PM<br>Sat: 7:30 AM – 11:30 AM</span>
+                </div>
+
+                <div class="detail">
+                    <strong>Phone</strong>
+                    <span><a href="tel:+96894794794" style="color: var(--water);">+968 94794794</a></span>
+                </div>
+
+                <div class="map-wrap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5680.780837367926!2d56.66892480237272!3d24.32184046653965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8b441341a17221%3A0x8657b962407e2923!2sAl%20Batinah%20International%20School!5e1!3m2!1sen!2som!4v1778661134260!5m2!1sen!2som" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section style="padding-bottom: 4rem;">
+    <div class="wrap">
+        <div class="contact-form reveal">
+            <h2 style="margin-bottom: 0.5rem;">Get in <span class="grad-text">touch</span></h2>
+            <p style="margin-bottom: 2.5rem;">Questions about programs, schedules, or assessments — we'll get back to you within 24 hours.</p>
+            <form id="contactForm" action="mailto:info@nautilusswimmingclub.com" method="POST" enctype="text/plain">
+                <div class="form-row">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="field">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="field">
+                        <label for="location">Location</label>
+                        <select id="location" name="location">
+                            <option value="" disabled selected>Select</option>
+                            <option value="Muscat">Muscat</option>
+                            <option value="Sohar">Sohar</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="How can we help?"></textarea>
+                </div>
+                <button type="submit" class="btn btn-fill">Send message →</button>
+                <div id="formMessage" class="form-message"></div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="wrap">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-logo"><img src="assets/img/logo-nautilus.png" alt="Nautilus"><span>Nautilus</span></div>
+                <p style="font-size: 0.9rem; max-width: 300px;">Premium swimming programs in Muscat and Sohar, Oman.</p>
+            </div>
+            <div>
+                <h4>Pages</h4>
+                <ul><li><a href="programs.html">Programs</a></li><li><a href="about.html">About</a></li><li><a href="coaches.html">Coaches</a></li><li><a href="competitions.html">Competitions</a></li></ul>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <ul><li>info@nautilusswimmingclub.com</li><li>Muscat: +968 91791791</li><li>Sohar: +968 94794794</li></ul>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 Nautilus Swimming Club</div>
+    </div>
+</footer>
+
+</body>
+</html>

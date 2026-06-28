@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — Nautilus Swimming Club</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+<!-- SVG Filter (include once in your document) -->
+<svg width="0" height="0" style="position: absolute;">
+  <defs>
+    <filter id="glass-distortion" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence 
+        type="fractalNoise" 
+        baseFrequency="0.008 0.008"
+        numOctaves="2" 
+        seed="92" 
+        result="noise" 
+      />
+      <feGaussianBlur 
+        in="noise" 
+        stdDeviation="2" 
+        result="blurred" 
+      />
+      <feDisplacementMap 
+        in="SourceGraphic" 
+        in2="blurred" 
+        scale="150"
+        xChannelSelector="R" 
+        yChannelSelector="G" 
+      />
+    </filter>
+  </defs>
+</svg>
+
+<nav class="nav">
+    <div class="wrap nav-inner">
+        <div class="nav-top">
+            <a href="index.html" class="nav-logo"><img src="assets/img/logo-nautilus.png" alt="Nautilus"></a>
+            <ul class="nav-menu-inline">
+                <li><a href="index.html" class="nav-home">Home</a></li>
+                <li><a href="programs.html" class="nav-programs">Programs</a></li>
+                <li><a href="about.html" class="nav-about on">About</a></li>
+                <li><a href="coaches.html" class="nav-coaches">Coaches</a></li>
+                <li><a href="locations.html" class="nav-locations">Locations</a></li>
+                <li><a href="portal.html" target="_blank" class="nav-portal">Member Portal</a></li>
+                <div class="nav-indicator"></div>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-home">Home</a></li>
+            <li><a href="programs.html" class="nav-programs">Programs</a></li>
+            <li><a href="about.html" class="nav-about on">About</a></li>
+            <li><a href="coaches.html" class="nav-coaches">Coaches</a></li>
+            <li><a href="locations.html" class="nav-locations">Locations</a></li>
+            <li><a href="portal.html" target="_blank" class="nav-portal">Member Portal</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<section class="section section-gradient page-header">
+    <div class="wrap">
+        <h1 class="reveal" style="margin-bottom: 1rem;">About <span class="grad-text">Nautilus</span></h1>
+        <p class="reveal reveal-delay-1" style="max-width: 520px; font-size: 1.15rem;">We started with a pool and a mission. A decade later, we're shaping Oman's swimming future.</p>
+    </div>
+</section>
+
+<section class="feature">
+    <div class="feature-img reveal"><img src="assets/img/mg_6760-copy.jpg" alt="Nautilus Swimming Club event"></div>
+    <div class="feature-text">
+        <h2 class="reveal">Founded in <span class="grad-text">2015</span></h2>
+        <p class="reveal reveal-delay-1">Nautilus Swimming Club was established in September 2015 to fill a gap in Oman's aquatic sports landscape. What started as a small coaching operation has grown into the country's leading swim program.</p>
+        <p class="reveal reveal-delay-2">Our mission is straightforward: develop every individual's capacity to achieve excellence and life skills through competitive aquatic activities.</p>
+    </div>
+</section>
+
+<div class="stats">
+    <div class="stat reveal">
+        <h3 data-count="2015">0</h3>
+        <p>Year founded</p>
+    </div>
+    <div class="stat reveal reveal-delay-1">
+        <h3 data-count="2">0</h3>
+        <p>Locations</p>
+    </div>
+    <div class="stat reveal reveal-delay-2">
+        <h3 data-count="100" data-suffix="+">0</h3>
+        <p>Competitive swimmers</p>
+    </div>
+</div>
+
+<section class="feature" style="direction: rtl;">
+    <div class="feature-img reveal" style="direction: ltr;"><img src="assets/img/85241329.jpg" alt="Swimming competition"></div>
+    <div class="feature-text" style="direction: ltr;">
+        <h2 class="reveal">International <span class="grad-text">competition.</span></h2>
+        <p class="reveal reveal-delay-1">We host significant long-course swim meets with international participation from Bahrain, Qatar, and the UAE. Our athletes regularly represent Oman at regional and international championships.</p>
+        <p class="reveal reveal-delay-2">Swimming is not just a sport here — it's a discipline that builds character, resilience, and community.</p>
+    </div>
+</section>
+
+<div class="gallery reveal">
+        <div class="gallery-track">
+            <img src="assets/img/mg_6760-copy.jpg" alt="Nautilus event">
+    <img src="assets/img/1638293181-1638293181-hmn0yweaasdh.jpg" alt="Competition">
+    <img src="assets/img/71172352.jpg" alt="Training">
+    <img src="assets/img/88081239.jpg" alt="Swimming pool">
+    <img src="assets/img/79518656.jpg" alt="Meet day">
+    <img src="assets/img/masters-swimming.jpg" alt="Masters swimming">
+</div>
+
+<section class="section">
+    <div class="wrap" style="max-width: 780px;">
+        <h2 class="reveal" style="margin-bottom: 2rem;">What <span class="grad-text">drives us</span></h2>
+        <p class="reveal reveal-delay-1" style="font-size: 1.1rem;">We believe every individual — regardless of age, background, or ability — deserves access to world-class aquatic training. Our programs are designed not just to build faster swimmers, but to instill discipline, confidence, and a lifelong love for the water.</p>
+        <p class="reveal reveal-delay-2" style="font-size: 1.1rem;">That's the culture we've been building for nearly a decade, and it's why families across Oman trust Nautilus with their children's development.</p>
+        <div class="reveal reveal-delay-3" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="coaches.html" class="btn btn-fill">Meet our coaches →</a>
+            <a href="programs.html" class="btn btn-ghost">View programs →</a>
+        </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="wrap">
+        <div class="footer-grid">
+            <div><div class="footer-logo"><img src="assets/img/logo-nautilus.png" alt="Nautilus"><span>Nautilus</span></div><p style="font-size: 0.9rem; max-width: 300px;">Premium swimming programs in Muscat and Sohar, Oman.</p></div>
+            <div><h4>Pages</h4><ul><li><a href="programs.html">Programs</a></li><li><a href="about.html">About</a></li><li><a href="coaches.html">Coaches</a></li><li><a href="competitions.html">Competitions</a></li></ul></div>
+            <div><h4>Contact</h4><ul><li>info@nautilusswimmingclub.com</li><li>Muscat: +968 91791791</li><li>Sohar: +968 94794794</li></ul></div>
+        </div>
+        <div class="footer-bottom">© 2026 Nautilus Swimming Club</div>
+    </div>
+</footer>
+
+</body>
+</html>
