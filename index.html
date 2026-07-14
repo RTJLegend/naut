@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nautilus Swimming Club — Oman</title>
+    <meta name="description" content="Premium swimming programs in Oman. Learn to swim, competitive squads, and elite coaching at Nautilus Swimming Club.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+<!-- SVG Filter (include once in your document) -->
+<svg width="0" height="0" style="position: absolute;">
+  <defs>
+    <filter id="glass-distortion" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence 
+        type="fractalNoise" 
+        baseFrequency="0.008 0.008"
+        numOctaves="2" 
+        seed="92" 
+        result="noise" 
+      />
+      <feGaussianBlur 
+        in="noise" 
+        stdDeviation="2" 
+        result="blurred" 
+      />
+      <feDisplacementMap 
+        in="SourceGraphic" 
+        in2="blurred" 
+        scale="150"
+        xChannelSelector="R" 
+        yChannelSelector="G" 
+      />
+    </filter>
+  </defs>
+</svg>
+
+<nav class="nav">
+    <div class="wrap nav-inner">
+        <div class="nav-top">
+            <a href="index.html" class="nav-logo"><img src="assets/img/logo-nautilus.png" alt="Nautilus"></a>
+            <ul class="nav-menu-inline">
+                <li><a href="index.html" class="nav-home on">Home</a></li>
+                <li><a href="programs.html" class="nav-programs">Programs</a></li>
+                <li><a href="about.html" class="nav-about">About</a></li>
+                <li><a href="coaches.html" class="nav-coaches">Coaches</a></li>
+                <li><a href="locations.html" class="nav-locations">Locations</a></li>
+                <li><a href="portal.html" target="_blank" class="nav-portal">Member Portal</a></li>
+                <div class="nav-indicator"></div>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-home on">Home</a></li>
+            <li><a href="programs.html" class="nav-programs">Programs</a></li>
+            <li><a href="about.html" class="nav-about">About</a></li>
+            <li><a href="coaches.html" class="nav-coaches">Coaches</a></li>
+            <li><a href="locations.html" class="nav-locations">Locations</a></li>
+            <li><a href="portal.html" target="_blank" class="nav-portal">Member Portal</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1 class="reveal">Swim with<br><span>purpose.</span></h1>
+        <p class="reveal reveal-delay-1">From first-time swimmers to national competitors — Nautilus is where Oman trains.</p>
+        <div class="reveal reveal-delay-2" style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="programs.html" class="btn btn-fill">View programs →</a>
+            <a href="locations.html" class="btn btn-ghost">Book assessment</a>
+        </div>
+    </div>
+    <div class="hero-img">
+        <img src="assets/img/tt4a4785.jpg" alt="Competitive swimmers training at Nautilus">
+    </div>
+</section>
+
+<div class="stats">
+    <div class="stat reveal">
+        <h3 data-count="2015">0</h3>
+        <p>Established</p>
+    </div>
+    <div class="stat reveal reveal-delay-1">
+        <h3 data-count="2">0</h3>
+        <p>Locations</p>
+    </div>
+    <div class="stat reveal reveal-delay-2">
+        <h3 data-count="100" data-suffix="+">0</h3>
+        <p>Competitive swimmers</p>
+    </div>
+</div>
+
+<section class="section section-gradient">
+    <div class="wrap" style="margin-bottom: 2.5rem;">
+        <h2 class="reveal">Programs built <span class="grad-text">around you.</span></h2>
+        <p class="reveal reveal-delay-1" style="max-width: 500px;">Whether you're learning to float or chasing a qualifying time, we have a structured path for you.</p>
+    </div>
+    <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+        <div class="card tilt-card reveal">
+            <div class="card-img"><img src="assets/img/dnc_3295.jpg" alt="Learn to Swim"></div>
+            <div class="card-body">
+                <h3>Learn to Swim</h3>
+                <p>Kids, adults, and ladies only sessions. Water safety and stroke development at every level.</p>
+                <a href="programs.html" class="btn btn-ghost" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;">Details →</a>
+            </div>
+        </div>
+        <div class="card tilt-card reveal reveal-delay-1">
+            <div class="card-img"><img src="assets/img/tt4a4785.jpg" alt="Competitive Squads"></div>
+            <div class="card-body">
+                <h3>Competitive Squads</h3>
+                <p>Olympic-level coaching for swimmers ready to compete nationally and internationally.</p>
+                <a href="programs.html" class="btn btn-ghost" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;">Details →</a>
+            </div>
+        </div>
+        <div class="card tilt-card reveal reveal-delay-2">
+            <div class="card-img"><img src="assets/img/masters-swimming.jpg" alt="Adult Swimming"></div>
+            <div class="card-body">
+                <h3>Adult & Masters</h3>
+                <p>Never too late to start. Our adult programs build fitness, technique, and confidence in the water.</p>
+                <a href="programs.html" class="btn btn-ghost" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;">Details →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="scroll-pin-wrapper">
+    <div class="scroll-pin-content">
+        <section class="feature">
+            <div class="feature-img scroll-reveal-img" style="clip-path: inset(0 100% 0 0);">
+                <img src="assets/img/85241329.jpg" alt="Nautilus swimmers competing">
+            </div>
+            <div class="feature-text">
+                <h2 class="reveal">A decade of building <span class="grad-text">Oman's swim scene.</span></h2>
+                <p id="typed-text" class="reveal" style="min-height: 80px;" data-fulltext="Since 2015, Nautilus has hosted significant long-course meets with international participation from Bahrain, Qatar, and the UAE. We don't just teach swimming, we develop athletes."></p>
+                <div class="reveal reveal-delay-2" style="margin-top: 0.5rem;">
+                    <a href="about.html" class="btn btn-ghost">Read more →</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<!-- Photo gallery strip -->
+<div class="gallery reveal">
+    <div class="gallery-track">
+        <img src="assets/img/mg_6760-copy.jpg" alt="Nautilus event">
+        <img src="assets/img/1638293181-1638293181-hmn0yweaasdh.jpg" alt="Competition">
+        <img src="assets/img/71172352.jpg" alt="Training">
+        <img src="assets/img/88081239.jpg" alt="Swimming pool">
+        <img src="assets/img/masters-swimming.jpg" alt="Masters swimming">
+        <img src="assets/img/ladies-only.jpg" alt="Ladies swimming">
+    </div>
+</div>
+
+<section class="feature" style="direction: rtl;">
+    <div class="feature-img reveal" style="direction: ltr;">
+        <img src="assets/img/dnc_3295.jpg" alt="Coaching at Nautilus">
+        </div>
+    </div>
+<div class="feature-text" style="direction: ltr;">
+        <h2 class="reveal">World-class <span class="grad-text">coaching.</span></h2>
+        <p class="reveal reveal-delay-1">Our head coach Ivan Proskura brings Olympic and Paralympic experience from Ukraine. Every lane at Nautilus benefits from his philosophy of technical precision and mental discipline.</p>
+        <div class="reveal reveal-delay-2" style="margin-top: 0.5rem;">
+            <a href="coaches.html" class="btn btn-fill">Meet the team →</a>
+        </div>
+    </div>
+</section>
+
+<section class="section" style="background: var(--pool);">
+    <div class="wrap" style="text-align: center;">
+        <h2 class="reveal" style="margin-bottom: 1rem;">Ready to <span class="grad-text">dive in?</span></h2>
+        <p class="reveal reveal-delay-1" style="max-width: 500px; margin: 0 auto 2rem;">Book a free assessment session and we'll find the right group for your level and schedule.</p>
+        <div class="reveal reveal-delay-2" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <a href="locations.html" class="btn btn-fill">Book assessment →</a>
+            <a href="locations.html" class="btn btn-ghost">View locations</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="wrap">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-logo">
+                    <img src="assets/img/logo-nautilus.png" alt="Nautilus">
+                    <span>Nautilus</span>
+                </div>
+                <p style="font-size: 0.9rem; max-width: 300px;">Premium swimming programs in Muscat and Sohar, Oman.</p>
+            </div>
+            <div>
+                <h4>Pages</h4>
+                <ul>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="coaches.html">Coaches</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <ul>
+                    <li>info@nautilusswimmingclub.com</li>
+                    <li>Muscat: +968 91791791</li>
+                    <li>Sohar: +968 94794794</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 Nautilus Swimming Club</div>
+    </div>
+</footer>
+
+</body>
+</html>

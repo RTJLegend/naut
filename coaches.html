@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coaches — Nautilus Swimming Club</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+<!-- SVG Filter (include once in your document) -->
+<svg width="0" height="0" style="position: absolute;">
+  <defs>
+    <filter id="glass-distortion" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence 
+        type="fractalNoise" 
+        baseFrequency="0.008 0.008"
+        numOctaves="2" 
+        seed="92" 
+        result="noise" 
+      />
+      <feGaussianBlur 
+        in="noise" 
+        stdDeviation="2" 
+        result="blurred" 
+      />
+      <feDisplacementMap 
+        in="SourceGraphic" 
+        in2="blurred" 
+        scale="150"
+        xChannelSelector="R" 
+        yChannelSelector="G" 
+      />
+    </filter>
+  </defs>
+</svg>
+
+<nav class="nav">
+    <div class="wrap nav-inner">
+        <div class="nav-top">
+            <a href="index.html" class="nav-logo"><img src="assets/img/logo-nautilus.png" alt="Nautilus"></a>
+            <ul class="nav-menu-inline">
+                <li><a href="index.html" class="nav-home">Home</a></li>
+                <li><a href="programs.html" class="nav-programs">Programs</a></li>
+                <li><a href="about.html" class="nav-about">About</a></li>
+                <li><a href="coaches.html" class="nav-coaches on">Coaches</a></li>
+                <li><a href="locations.html" class="nav-locations">Locations</a></li>
+                <li><a href="portal.html" target="_blank" class="nav-portal">Member Portal</a></li>
+                <div class="nav-indicator"></div>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-home">Home</a></li>
+            <li><a href="programs.html" class="nav-programs">Programs</a></li>
+            <li><a href="about.html" class="nav-about">About</a></li>
+            <li><a href="coaches.html" class="nav-coaches on">Coaches</a></li>
+            <li><a href="locations.html" class="nav-locations">Locations</a></li>
+            <li><a href="portal.html" target="_blank" class="nav-portal">Member Portal</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<section class="section section-gradient page-header">
+    <div class="wrap">
+        <h1 class="reveal" style="max-width: 550px; margin-bottom: 1rem;"><span class="grad-text">Coaches</span></h1>
+        <p class="reveal reveal-delay-1" style="max-width: 480px; font-size: 1.15rem;">Olympic experience. International pedigree. Here every day for your development.</p>
+    </div>
+</section>
+
+<section style="padding-bottom: 4rem;">
+    <div class="wrap">
+            <div class="coach tilt-card reveal" style="max-width: 300px; margin: 0 auto;">
+                <img src="assets/img/iproskura.jpg" alt="Ivan Proskura">
+                <h3>Ivan Proskura</h3>
+                <span class="role">Head Coach</span>
+                <p>Merited Coach of Ukraine with Olympic and Paralympic experience. Technical lead for all programs at Nautilus.</p>
+            </div>
+    </div>
+</section>
+
+<div class="gallery reveal">
+        <div class="gallery-track">
+            <img src="assets/img/mg_6760-copy.jpg" alt="Nautilus event">
+    <img src="assets/img/71172352.jpg" alt="Training">
+    <img src="assets/img/88081239.jpg" alt="Swimming pool">
+    <img src="assets/img/dnc_3295.jpg" alt="Coaching session">
+        </div>
+    </div>
+<footer class="footer">
+    <div class="wrap">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-logo"><img src="assets/img/logo-nautilus.png" alt="Nautilus"><span>Nautilus</span></div>
+                <p style="font-size: 0.9rem; max-width: 300px;">Premium swimming programs in Muscat and Sohar, Oman.</p>
+            </div>
+            <div>
+                <h4>Pages</h4>
+                <ul><li><a href="programs.html">Programs</a></li><li><a href="about.html">About</a></li><li><a href="coaches.html">Coaches</a></li><li><a href="locations.html">Locations</a></li></ul>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <ul><li>info@nautilusswimmingclub.com</li><li>Muscat: +968 91791791</li><li>Sohar: +968 94794794</li></ul>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 Nautilus Swimming Club</div>
+    </div>
+</footer>
+
+</body>
+</html>
